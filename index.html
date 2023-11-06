@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joseph Ochego's Web Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -91,20 +91,24 @@
 
             <!-- First Set Of Skills -->
             <div class="my-skills1">
-                <div class="top">
-                    <img src="images/html-skill1.png" alt="HTML5" class="html-pic">
+                <div class="top" id="top1">
+                    <a href="https://github.com/josephchigiz/softengine/tree/master/Practice/HTML-Practice" title="Read More" class="html-link"><img src="images/html-skill1.png" alt="HTML5" class="html-pic"></a>
+                    <!-- <div class="link-html">
+                        <p class="link-text"><a href="">View more information</a></p>
+                        <img src="images/link-icon.png" alt="Read More" class="link-icon">
+                    </div> -->
                     <h2 class="html-head">HTML</h2>
                     <p class="html-text">“Proficient in crafting structured and semantically meaningful HTML for solid web foundations.”</p>
                 </div>
 
-                <div class="top">
-                    <img src="images/css-skill1.png" alt="CSS" class="css-pic">
+                <div class="top" id="top2">
+                    <a href="https://github.com/josephchigiz/alx_html_css/tree/master/css_advanced" class="css-link" title="Read More"><img src="images/css-skill1.png" alt="CSS" class="css-pic"></a>
                     <h2 class="css-head">CSS</h2>
                     <p class="css-text">"Skilled in creating visually stunning web designs with CSS, ensuring seamless user experiences."</p>
                 </div>
 
-                <div class="top">
-                    <img src="images/js-skill1.png" alt="JavaScript" class="js-pic">
+                <div class="top" id="top3">
+                    <a href="https://github.com/josephchigiz/alx_javascript" class="js-link" title="Read More"><img src="images/js-skill1.png" alt="JavaScript" class="js-pic"></a>
                     <h2 class="js-head">JavaScript</h2>
                     <p class="js-text">"Experienced in harnessing the power of JavaScript to bring interactivity and dynamism to web projects."</p>
                 </div>
@@ -113,18 +117,18 @@
 
             <!-- Second Set OF Skills -->
             <div class="my-skills1">
-                <div class="bottom">
-                    <img src="images/python-skill1.png" alt="Python" class="python-pic">
+                <div class="bottom" id="bottom1">
+                    <a href="https://github.com/josephchigiz/alx_python" class="python-link" title="Read More"><img src="images/python-skill1.png" alt="Python" class="python-pic"></a>
                     <h2 class="python-head">Python</h2>
                     <p class="python-text">"Proficient in Python and Flask for robust back-end development, delivering feature-rich web applications."</p>
                 </div>
-                <div class="bottom">
-                    <img src="images/canva-skill1.png" alt="Canva" class="canva-pic">
+                <div class="bottom" id="bottom2">
+                    <a href="https://github.com/josephchigiz/alx_capstone_project/tree/master/images/CanvaDesigns" class="canva-link" title="Read More"><img src="images/canva-skill1.png" alt="Canva" class="canva-pic"></a>
                     <h2 class="canva-head">Canva</h2>
                     <p class="canva-text">“Experienced in graphic design using Canva for visually appealing web assets”</p>
                 </div>
-                <div class="bottom">
-                    <img src="images/figma-skill1.png" alt="Figma" class="figma-pic">
+                <div class="bottom" id="bottom3">
+                    <a href="https://github.com/josephchigiz/alx_capstone_project/tree/master/images/FigmaDesigns" class="figma-link" title="Read More"><img src="images/figma-skill1.png" alt="Figma" class="figma-pic"></a>
                     <h2 class="figma-head">Figma</h2>
                     <p class="figma-text">“Proficient in Figma for intuitive UI/UX design and prototyping.”</p>
                 </div>
@@ -148,23 +152,28 @@
 
             <div class="all-projects">
                 <div class="pomodoro">
-                    <img src="images/pomodoro.png" alt="Pomodoro App" class="pomodoro-pic">
+                    <a href="https://htmlpreview.github.io/?https://github.com/josephchigiz/softengine/blob/master/pomodoro_timer/index.html" class="pomodoro-link" title="Try It Out!"><img src="images/pomodoro.png" alt="Pomodoro App" class="pomodoro-pic"></a>
                     <h2 class="pomodoro-label">Pomodoro App</h2>
                 </div>
 
-                <div class="gallery">
+                <!-- <div class="gallery">
                     <img src="images/gallery.png" alt="Photo Gallery" class="gallery-pic">
                     <h2 class="gallery-label">Photo Gallery</h2>
-                </div>
+                </div> -->
 
-                <div class="todo">
+                <!-- <div class="todo">
                     <img src="images/todo.png" alt="TODO App" class="todo-pic">
                     <h2 class="todo-label">TODO App</h2>
+                </div> -->
+
+                <div class="smile-school">
+                    <a href="https://htmlpreview.github.io/?https://github.com/josephchigiz/alx_html_css/blob/master/css_advanced/index.html" class="smiles-link" title="Read More!"><img src="images/advanced-css1.png" alt="Smile School" class="smile-pic"></a>
+                    <h2 class="smile-label">Smile School</h2>
                 </div>
 
-                <div class="calendar">
-                    <img src="images/calendar.png" alt="Calendar App" class="calendar-pic">
-                    <h2 class="calendar-label">Calendar</h2>
+                <div class="readme">
+                    <a href="https://github.com/josephchigiz/softengine/tree/master/README-Tutorial" class="readme-link" title="Read More!"><img src="images/readme1.png" alt="Readme Tutorial" class="readme-pic"></a>
+                    <h2 class="readme-label">A Guide to Effective Documentation</h2>
                 </div>
             </div>
 
@@ -183,12 +192,14 @@
 
         <div class="center-all">
 
-            <form class="contact-form" name="contact-form" action="https://public.herotofu.com/v1/c91bee20-7bd7-11ee-b135-7f6805088792" method="post" accept-charset="UTF-8">
+            <!-- <form class="contact-form" id="contact-form" name="contact-form" action="https://public.herotofu.com/v1/c91bee20-7bd7-11ee-b135-7f6805088792" method="post" accept-charset="UTF-8"> -->
+            <form class="contact-form" id="contact-form" name="contact-form" >
                 <div class="top-form">
+                    <input type="hidden" name="contact_number">
                     <!-- <label for="name" class="name-label">Your name</label> -->
-                    <input type="name" name="name" id="your-name" placeholder="Name" required>
+                    <input type="name" name="user_name" id="your-name" placeholder="Name" required>
                     <!-- <label for="email" class="email-label">Your email</label> -->
-                    <input type="email" name="email" id="your-email"  placeholder="Email" required>
+                    <input type="email" name="user_email" id="your-email"  placeholder="Email" required>
                     <!-- <label for="message" class="message-label">Your message</label> -->
                     <textarea name="message" id="your-message" cols="30" rows="10" placeholder="Feel free to share your thoughts or drop me a message. I'm just a click away!" required></textarea>
                 </div>
@@ -256,7 +267,8 @@
 
     </section>
 
-
-    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

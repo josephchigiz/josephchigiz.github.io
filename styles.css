@@ -168,12 +168,22 @@ header.sticky {
     height: 100vh;
     width: 50%;
     /* margin-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 5px); */
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.432);
 }
 
 .sidebar a {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.sidebar a:active {
+    transform: scale(1.2);
 }
 
 .hamburger-menu:has(input:checked) + .sidebar {
@@ -326,6 +336,16 @@ header.sticky {
     max-width: 350px;
     border-radius: 5px;
     margin-bottom: -8px;
+    transition: all 0.2s ease-in-out;
+}
+
+.my-skills img:hover {
+    box-shadow: 6px 6px 6px rgb(124, 139, 69);
+    transform: scale(1.1);
+}
+
+.my-skills img:active {
+    transform: scale(1.2);
 }
 
 .my-skills h2 {
@@ -373,10 +393,20 @@ header.sticky {
 }
 
 .my-projects img {
-    max-width: 300px;
-    max-height: 280px;
+    /* max-width: 300px;
+    max-height: 280px; */
     margin-bottom: -10px;
     border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.my-projects img:hover {
+    box-shadow: 6px 6px 6px rgb(124, 139, 69);
+    transform: scale(1.05);
+}
+
+.my-projects img:active {
+    transform: scale(1.2);
 }
 
 .my-projects h2 {
@@ -389,7 +419,7 @@ header.sticky {
 .all-projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 6px;
 }
 
