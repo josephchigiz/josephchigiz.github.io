@@ -341,11 +341,11 @@ header.sticky {
 
 .my-skills img:hover {
     box-shadow: 6px 6px 6px rgb(124, 139, 69);
-    transform: scale(1.1);
+    transform: scaleX(1.1);
 }
 
 .my-skills img:active {
-    transform: scale(1.2);
+    transform: scaleY(1.2);
 }
 
 .my-skills h2 {
@@ -402,11 +402,11 @@ header.sticky {
 
 .my-projects img:hover {
     box-shadow: 6px 6px 6px rgb(124, 139, 69);
-    transform: scale(1.05);
+    transform: scaleX(1.05);
 }
 
 .my-projects img:active {
-    transform: scale(1.2);
+    transform: scaleY(1.2);
 }
 
 .my-projects h2 {
