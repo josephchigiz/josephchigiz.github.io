@@ -28,14 +28,23 @@ window.addEventListener('scroll', stickyNavbar);
 
 
 // *** email validation *** //
-function emailValidation(userInput) {
-    var mailFormat =  /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    if (userInput.value.match(mailFormat)) {
-        document.contact-form.email.focus();
-        return true;
-    } else {
-        alert("You have entered an invalid email address!");
-        document.contact-form.email.focus();
-        return false;
-    }
-}
+const btn = document.getElementById('button');
+
+document.getElementById('contact-form')
+    .addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    btn.value = 'Sending...';
+
+    const serviceID = 'default_service';
+    const templateID = 'template_im542yk';
+
+    emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+        btn.value = 'Send Email';
+        alert('Sent Successfully!');
+    }, (err) => {
+        btn.value = 'Send Email';
+        alert(JSON.stringify(err));
+    });
+});
