@@ -1,6 +1,6 @@
 # Figma Designs 🎨
 - I have had fun in Figma while trying to put some life into my projects🤔 - playing around with elements, positioning, colors, and typography📝.  
-- The first design, being a simple web portfolio layout I designed before realizing it was quite complex🤯 for me to code it at the time and <br>ending up with several different iterations afterward.  
+- The first design, being a simple web portfolio layout I designed before realizing it was quite complex🤯 for me to code it at the time and ending up with several different iterations afterward.  
 - Here is a list of some of the Figma designs I have come up with so far:
   1. First, the three iterations of my web portfolio and the final one:🖥️
     - The first idea of my [web portfolio](https://www.figma.com/file/h3RcmrfQy83K5Vx162CzZj/Portfolio(First-Iteration)?type=design&t=T0iGxZzL2s8plDYJ-6)
