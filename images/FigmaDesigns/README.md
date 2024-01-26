@@ -7,5 +7,5 @@
     b. The [second iteration](https://www.figma.com/file/DEaukgKHsSLf1de1YZh47G/PF-Iteration2?type=design&t=T0iGxZzL2s8plDYJ-6)
     c. The [third iteration](https://www.figma.com/file/kOLQJQyx6S7uQGZ5ogcYLf/PF-Iteration3?type=design&t=T0iGxZzL2s8plDYJ-6) changing the position of my profile.
     d. The [final portfolio design](https://www.figma.com/file/gHzxLNnYLitTFEQPQl8MB8/MyPortfolio?type=design&t=T0iGxZzL2s8plDYJ-6) that was implemented.
-  2. A [simple blog-style](https://www.figma.com/file/IoOTwiMlLzDWsg1BL8OdCP/Simple-Blog-Homepage?type=design&t=T0iGxZzL2s8plDYJ-6) mobile homepage design.📱
-  3. A simple Star Wars rebels [call to action](https://www.figma.com/file/DLJfTWt8iiuwPOEM24O7XZ/StarWars-Rebels?type=design&t=T0iGxZzL2s8plDYJ-6) site design.👽
+  3. A [simple blog-style](https://www.figma.com/file/IoOTwiMlLzDWsg1BL8OdCP/Simple-Blog-Homepage?type=design&t=T0iGxZzL2s8plDYJ-6) mobile homepage design.📱
+  4. A simple Star Wars rebels [call to action](https://www.figma.com/file/DLJfTWt8iiuwPOEM24O7XZ/StarWars-Rebels?type=design&t=T0iGxZzL2s8plDYJ-6) site design.👽
