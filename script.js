@@ -47,4 +47,6 @@ document.getElementById('contact-form')
         btn.value = 'Send Email';
         alert(JSON.stringify(err));
     });
+
+    document.getElementById('contact-form').reset();
 });
