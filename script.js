@@ -43,10 +43,9 @@ document.getElementById('contact-form')
     .then(() => {
         btn.value = 'Send Email';
         alert('Sent Successfully!');
+        document.getElementById('contact-form').reset();
     }, (err) => {
         btn.value = 'Send Email';
         alert(JSON.stringify(err));
     });
-
-    document.getElementById('contact-form').reset();
 });
